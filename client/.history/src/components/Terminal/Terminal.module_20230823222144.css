@@ -1,0 +1,53 @@
+.terminal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* border: 1px solid rgb(8, 121, 68); */
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  background-color: black;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0 0 10px rgba(23, 78, 62, 0.2);
+}
+
+#output {
+  white-space: pre-wrap;
+  color: rgba(255, 255, 255, 0.842);
+  font-family: monospace;
+  overflow-wrap: break-word;
+}
+
+.highlighted-green {
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(12, 145, 12);
+}
+
+.highlighted-red {
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(187, 1, 1);
+}
+
+.input {
+  background-color: transparent;
+  /* border: none; */
+  color: rgba(255, 255, 255, 0.842);
+  font-family: monospace;
+  caret-color: rgba(255, 255, 255, 0.842);
+  margin: 0 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+span {
+  color: rgba(255, 255, 255, 0.842);
+  font-size: 1rem;
+}
