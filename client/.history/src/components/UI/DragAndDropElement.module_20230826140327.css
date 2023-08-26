@@ -1,0 +1,18 @@
+.draggable-element {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  cursor: move;
+  z-index: 100;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}

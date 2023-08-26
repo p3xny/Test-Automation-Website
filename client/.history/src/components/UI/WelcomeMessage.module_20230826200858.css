@@ -1,0 +1,20 @@
+.WelcomeMessage {
+  color: rgb(96, 241, 210);
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}

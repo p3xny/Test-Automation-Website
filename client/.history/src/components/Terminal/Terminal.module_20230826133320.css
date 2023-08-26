@@ -1,0 +1,75 @@
+.terminal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px;
+  border-radius: 12px;
+
+  width: 80%;
+  max-width: 800px;
+  min-height: 420px;
+  max-height: 420px;
+  background-color: black;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0 0 10px rgba(23, 78, 62, 0.2);
+  overflow-wrap: break-word;
+}
+
+.terminal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 12px;
+}
+
+.terminal::-webkit-scrollbar-track {
+  background-color: rgba(73, 70, 70, 0.5);
+  border-radius: 12px;
+}
+
+#output {
+  white-space: pre-wrap;
+}
+
+.outputContent {
+  text-align: left;
+  font-family: monospace;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 0.842);
+}
+
+.highlighted-green {
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(12, 145, 12);
+}
+
+.highlighted-red {
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(158, 2, 2);
+}
+
+.input {
+  background-color: transparent;
+  /* border: none; */
+  color: rgba(255, 255, 255, 0.842);
+  font-family: monospace;
+  caret-color: rgba(255, 255, 255, 0.842);
+  margin: 0 5px;
+}
+
+form {
+  display: flex;
+  align-items: left;
+}
+
+span {
+  color: rgba(255, 255, 255, 0.842);
+  font-size: 1rem;
+}

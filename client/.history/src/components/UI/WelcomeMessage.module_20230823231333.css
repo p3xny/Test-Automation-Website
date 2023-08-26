@@ -1,0 +1,9 @@
+.WelcomeMessage {
+  color: rgb(96, 241, 210);
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  display: flex;
+}
