@@ -1,0 +1,22 @@
+.icon-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon-link {
+  width: 120px;
+  /* height: auto; */
+  display: block;
+  margin: 0 0;
+}
+
+.icon-link:hover {
+  opacity: 0.7;
+}
+
+.icon-text {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
