@@ -1,5 +1,5 @@
 # Test-Automation-Website
-Test-Automation-Website This is my portfolio website for automation tester/engineer role.
+This is my portfolio website for Test Automation Engineer role.
 
 Tech stack:
 - JavaScript + React for frontend,
