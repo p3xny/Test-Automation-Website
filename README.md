@@ -28,3 +28,7 @@ Server side (if you're on Linux or Mac):
   3. Enter the "source venv/bin/activate" command to activate the virtual environment.
   4. Enter the "pip install -r requirements.txt" to install all the necessary packages. 
   5. Enter the "python server.py" command to start the flask server.
+
+
+PREVIEW OF THE CURRENT BUILD:
+![](https://github.com/p3xny/Test-Automation-Website/blob/main/test_automation.gif)
